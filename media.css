@@ -1,0 +1,26 @@
+@media (min-width: 768px) { 
+    .menu-icon {
+        display: none;
+    }
+    .logo-img1 {
+      display: block;
+    }
+    .logo-img2 {
+      display: block;
+    }
+
+    nav {
+        position: relative;
+        top: -10px;
+        background-color: transparent;
+    }
+    nav ul {
+        max-height: 90px;
+        padding: 15px 0;
+        text-align: right;
+    }
+    nav ul li {
+        display: inline-flex;
+        padding-left: 20px;
+    }
+}
